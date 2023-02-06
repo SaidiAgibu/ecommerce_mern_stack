@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "font-awesome": "^4.7.0",
+    "material-table": "^2.0.3",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
