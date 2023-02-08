@@ -85,8 +85,10 @@ function App() {
             <ProtectedRoute exact path="/success" component={OrderSuccess}/>
             <ProtectedRoute exact path="/orders" component={MyOrders}/>
             
+                <Switch>
             <ProtectedRoute exact path="/order/:id" component={OrderDetails}/>
             <ProtectedRoute exact path="/order/confirm" component={ConfirmOrder}/>
+                <Switch />
             
 
             <ProtectedRoute isAdmin={true} exact path="/admin/dashboard" component={Dashboard}/>
